@@ -44,9 +44,5 @@ public class Animal {
 	public void setAnimalType(String animalType) {
 		this.animalType = animalType;
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+	
 }
