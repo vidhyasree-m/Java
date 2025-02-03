@@ -1,5 +1,5 @@
 //create a pojo class for employee
-package com.wipro.java.oops;
+package com.wipro.java.oops.inheritance;
 
 /**
  * @author vidhyasree
