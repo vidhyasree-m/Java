@@ -10,9 +10,10 @@ abstract class LibraryBooks {
 	
 	//parameterized constructor
 	public LibraryBooks(String bookName, String author, int bookId) {
-		this.setBookName(bookName);
-		this.setAuthor(author);
-		this.setBookId(bookId);
+		//this keyword represents the instance variables of  the current class
+		this.bookName = bookName;
+		this.author = author;
+		this.bookId = bookId;
 	}
 
 	
@@ -54,6 +55,7 @@ class Book1 extends LibraryBooks {
 	
 	//parameterized constructor
 	public Book1(String bookName, String author, int bookId, int pages) {
+		//super keyword is used to access the parent class variables
 		super(bookName, author, bookId);
 		this.pages = pages;
 		
