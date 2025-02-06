@@ -17,7 +17,7 @@ interface InterfaceTwo {
 }
 public class DefaultUseCase implements InterfaceOne, InterfaceTwo {
 	
-	//overriding the default methods 
+	//overriding the default methods in interfaceOne and InterfaceTwo
 	public void display() {
 		System.out.println("calling both interface methods");
 		//using super keyword to call the default methods of both interfaces
