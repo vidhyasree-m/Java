@@ -20,7 +20,13 @@ public class Adjust {
      // to get the first day of the next month
         LocalDate firstDayNextMonth = currentDate.with(TemporalAdjusters.firstDayOfNextMonth());
             System.out.println("First Day of Next Month: " + firstDayNextMonth);
+     // to get the last day of the next month
+        LocalDate lastDayNextMonth = currentDate.with(TemporalAdjusters.lastDayOfMonth());
+            System.out.println("First Day of Next Month: " + lastDayNextMonth);
             
+     //to get the next Monday
+        LocalDate nextMonday = currentDate.with(TemporalAdjusters.next(DayOfWeek.MONDAY));
+                    System.out.println("Next Saturday: " + nextMonday);
      //to get the next Thursday
         LocalDate nextSaturday = currentDate.with(TemporalAdjusters.next(DayOfWeek.THURSDAY));
                 System.out.println("Next Saturday: " + nextSaturday);
