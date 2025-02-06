@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * 
  */
-public class Collections {
+public class Collections1 {
 
 	public static void main(String[] args) {
 		//List - Maintains ordered collection 
