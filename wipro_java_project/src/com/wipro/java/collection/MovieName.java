@@ -12,6 +12,7 @@ import java.util.Comparator;
 class MovieName implements Comparator<MoviePojoClass> {
  @Override
  public int compare(MoviePojoClass movie1, MoviePojoClass movie2) {
-     return movie1.getName().compareTo(movie2.getName());
+    return movie1.getName().compareTo(movie2.getName());
+  
  }
 }
