@@ -1,1 +1,16 @@
-/.metadata/
+# Ignore compiled files and logs
+*.class
+*.log
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore environment files
+env/
+node_modules/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
