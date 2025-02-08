@@ -1,5 +1,7 @@
 package com.spring.sample;
 
+//pojo class
+
 public class Employee {
 	
 	private int id;
