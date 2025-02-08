@@ -1,12 +1,18 @@
+/**
+ * 
+ */
 package com.spring.sample;
 
-//pojo class
-
+/**
+ * pojo class
+ */
 public class Employee {
 	
 	private int id;
 	private String name;
 	private String city;
+	
+	//getters and setters
 	public int getId() {
 		return id;
 	}
@@ -26,8 +32,9 @@ public class Employee {
 		this.city = city;
 	}
 	
-	void display(){  
-	    System.out.println(id+" "+name+" "+city);  
-	}  
+	void display() {
+		System.out.println(id + " " + name + " " + city);
+	}
+	
 
 }
